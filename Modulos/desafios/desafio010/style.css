@@ -1,0 +1,139 @@
+@font-face {
+    font-family: idroid;
+    src: url(fonts/idroid.otf) format(opentype);
+}
+
+
+body {
+    background-color: rgb(140, 214, 171);
+    margin: auto;
+}
+
+header {
+    width: 900px;
+    height: 140px;
+    /*background-color: rgb(65, 173, 101);*/
+    box-shadow: 4px 5px 4px 1px rgba(0, 0, 0, 0.473);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to top, rgb(6, 37, 6), rgb(57, 153, 84));
+}
+
+main {
+    width: 900px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.384);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lista {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+nav {
+    text-align: left;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.h11 {
+    color: rgb(9, 97, 9);
+    font-family: idroid, Courier, monospace;
+}
+
+.h2 {
+    background-color: rgb(167, 224, 184);
+    color: rgb(9, 97, 9);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.384);
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-family: idroid, sans-serif;
+}
+
+h3 {
+    background-color: rgb(9, 97, 9);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 35px;
+
+    padding-left: 20px;
+}
+
+section {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(167, 224, 184);
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.384);
+    padding-bottom: 10px;
+}
+
+.imagem {
+    display: block;
+    margin: 0 auto;
+}
+
+.ft {
+    width: 800px;
+    margin-left: 60px;
+}
+
+footer {
+    background-color: rgb(13, 85, 13);
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.384);
+}
+
+.h112 {
+    font-size: 40px;
+}
+
+div {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+}
+
+.pult {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.destaque {
+    color: rgb(13, 85, 13);
+    font-weight: bolder;
+    text-decoration: none;
+}
