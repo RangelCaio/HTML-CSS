@@ -10,19 +10,25 @@
         }
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-            border: 5px solid red;
-        }
-        tr.linha {
-            background-color: rgb(42, 110, 165);
         }
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: middle; /*Alinhamento vertical*/
         }
-        td.dado {
-            background-color: yellow;
+        .linha{
+            background-color: rgb(231, 231, 231);
         }
+        .td_right {
+            text-align: right;
+            vertical-align: top;
+            background-color: rgb(112, 131, 190);
+            
+        }
+
     </style>
 </head>
 <body>
@@ -35,19 +41,19 @@
             table data = dado de tabela
     -->
     <table>
-        <tr>
+        <tr class="linha">
             <!--Primeira linha-->
             <td>A1</td>
-            <td>B1</td>
+            <td class="td_right">B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <!--Segunda linha-->
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
-        <tr>
+        <tr class="linha">
             <!--Terceira linha-->
             <td>A3</td>
             <td>B3</td>
@@ -56,7 +62,7 @@
         <tr>
             <!--Quarta linha-->
             <td>A4</td>
-            <td class="dado">B4</td>
+            <td>B4</td>
             <td>C4</td>
         </tr>
     </table>
