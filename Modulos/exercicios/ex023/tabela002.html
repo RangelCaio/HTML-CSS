@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-family: Arial, Helvetica, sans-serif;
@@ -24,8 +25,13 @@
             padding: 10px;
         }
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(65, 65, 65);
             color: white;
+        }
+        thead > tr> th {
+            background-color: rgb(65, 65, 65);
+            position: sticky;
+            top: -1px;
         }
         tbody > tr:nth-child(odd) { /* odd(ímpar) ou 2n -1*/
             background-color: lightgray;
@@ -77,23 +83,97 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">16 054 524</td>
             </tr>
+            <tr>
                 <td>Bahia</td>
                 <td class="num">14 141 626</td>
-             </tr>
+            </tr>
+            <tr>
                 <td>Paraná</td>
                 <td class="num">11 444 380</td>
             </tr>
+            <tr>
                 <td>Rio Grande do Sul</td>
                 <td class="num">10 882 965</td>
             </tr>
+            <tr>
                 <td>Pernambuco</td>
                 <td class="num">9 058 931</td>
             </tr>
+            <tr>
                 <td>Ceará</td>
                 <td class="num">8 794 957</td>
             </tr>
+            <tr>
                 <td>Pará</td>
                 <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">8 794 957</td>
             </tr>
         </tbody>
         <tfoot>
